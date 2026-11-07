@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest a new action or an improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What do you want to do?
+      description: Describe the task, e.g. "shrink a scanned PDF below 2 MB for an upload form".
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: How should it work?
+      description: Which files would you select, and what should appear in the menu?
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you use today?
+      description: Other tools or workarounds you currently use for this.
